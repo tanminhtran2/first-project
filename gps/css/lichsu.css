@@ -1,0 +1,695 @@
+
+/*reponsive*/
+ img { 
+    max-width: 100%;
+}
+
+*{
+ margin: 0px;
+  padding: 0px;
+  border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+td{
+  margin:100;
+}
+ 
+ol, ul {
+  list-style: none;
+}
+ 
+body {
+
+}
+#menu{
+    width:100%;
+}
+.img{
+    height: 27%;
+    width: 100%;
+}
+#thietbi{
+    margin-left: 3px;
+    width:22%;
+    height: 100%;
+    padding-right: 7px;
+    float:left;
+    margin-top: 1px;
+    font-size: 20px;
+    z-index: 100;
+}
+#lichsu{
+    padding-left: 3px;
+    width:55%;
+    height: 100%;
+    float:left;
+ 
+    padding-top: 1px;
+}
+ 
+#timkiem{
+    padding: 2px;
+    float:left;
+    width:22%;
+    padding-top: 1px;
+    padding-right: 5px !important;
+}
+
+#ngay_gio{  font-size: 20px;  }
+#day{
+    padding-left: 25px;
+    font-size: 20px;
+    border:1px solid #AAAAAA;
+    border-radius:5px;
+}
+.time{
+    background-color:#F9F9F9;
+    border:1px solid #AAAAAA;
+    border-radius:5px;
+    color:#000000;
+    font-size:20px;
+    padding: 3px;
+    width: 100px;
+    text-align:center;
+}
+.button{
+    color:white;
+    background-color:#5cb85c;  
+    border: 2px  ;
+    padding: 9px;
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 6px;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.button:hover{
+     background-color:orange;  
+}
+ #button{
+    color:white;
+    background-color:#5cb85c;  
+    border: 2px  ;
+    padding: 9px;
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 6px;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+#button:hover{
+     background-color:orange;  
+}
+#btn_timkiem{
+    color:white;
+    background-color:#5cb85c;  
+    border: 2px  ;
+    padding: 9px;
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 6px; 
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+#btn_timkiem:hover{
+     background-color:orange;  
+}
+
+.chitiet{
+    text-decoration:none ;
+}
+th,td{
+    padding:7px 15px;
+}
+table,th,td{
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+}
+ table{
+    border-top: 1px solid gray;
+ }
+th{
+     
+    color: black;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover{
+    background-color: #a9acb2;
+}
+.header{
+    background-color: #4286f4;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #23ce3e;
+    min-width: 110px; 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    border:  1px solid white;
+}
+
+.dropdown-content a:hover {
+    background-color: #23ce3e;
+ }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+#notification {
+  float:left; 
+  margin-left: 8% ;
+  color: black  ;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  padding: 2px 5px; /* Add some padding so it looks nice */
+}
+
+/* Make the badge float in the top right corner of the button */
+ 
+.dropdown-content-notify {     
+    display: none;
+    position: fixed;
+    min-width: 110px; 
+     z-index: 110;
+}
+.dropdown-content-notify :hover{
+  color:black !important;
+}
+li .dropdown-content-notify a {
+    padding: 12px 16px;
+    width: 500px;
+    color: white;
+    text-decoration: none;
+    border:  1px solid white;
+    text-align: left;
+} 
+.button__badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+ 
+  padding: 1px 3px;
+  font-size: 10px;
+ 
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top: 0;
+  right: 0;
+}
+.show {display: block; z-index: 110;}
+
+.pagination {
+    margin: 0px;
+    padding: 0px;
+}
+.pagination :hover{
+
+     z-index: 1;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+.thongtin{
+    padding:0px;
+    margin: 0px;
+}
+#input_timeout{
+  box-shadow: 5px 5px 5px #666;
+  width: 140px;
+  height:50px;
+  font-size: 17px;
+}
+#input_them_timeout{
+  box-shadow: 5px 5px 5px #666;
+  width: 140px;
+  height:50px;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+}
+.thongbao{
+    color: white;
+    min-width: 110px;
+    display: list-item;
+    padding: 12px 16px;
+    background-color: #4286f4;
+    border:  1px solid white;
+    list-style: none;
+}
+.thongbao :hover{
+  color:black !important;
+}
+#dangxuat{
+    margin-right:1%; 
+    position: relative;
+    display: inline-block;
+}
+#dangxuat div:hover {
+    color:blue;
+}
+#dangxuat ul{
+     
+    z-index: 3;
+    position: relative ;
+}
+#dangxuat div:hover .dropdown-content-icon {display: block;}
+ 
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-top:1px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    padding-right:2%; 
+    position: relative;
+    display:  block;
+}
+
+.dropdown-content-icon {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #cecece;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px #666;
+    z-index: 1;
+}
+ #image2 {
+    position: fixed;
+   float:right; 
+}
+#image1{
+    width: 45px;
+    height: 45px;
+}
+.dropdown-content-icon div {
+       float:right; 
+}
+
+.dropdown-content-icon a {
+    margin-left: 39%;
+    color: black;
+    padding: 8px 16px !important;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-icon a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content-icon {display:  block;margin-right:15%;}
+ 
+.dropbtn div{
+    display: inline-block;
+}
+#image2{
+    width: 115px;
+    height: 115px;
+}
+#capnhat_anh_profile,#img_profile{
+  position: relative !important;
+}
+
+#dropbtn {
+    padding: 0px;
+    margin:6px;
+    background-color: white;
+  }
+
+  #dropdown {
+      position: relative;
+      display:  block;
+      height: 50px;
+      width: 50px;
+      margin-left: 13% ;
+      z-index: 4;
+  }
+
+  #dropdown-content {
+      display: none;
+      background-color: white;
+       width: 140px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  #dropdown-content a {
+      color: black;
+      padding: 10px 13px;
+      text-decoration: none;
+      display: block;
+      width:140px;
+  }
+
+  #dropdown-content a:hover {background-color: #ddd;}
+
+  #dropdown:hover #dropdown-content {display: block;}
+#input_soluongdong{
+  width:50px;
+  height:30px;
+  padding:2px;
+  border: 2px solid blue;
+}
+
+@media only screen and (max-width: 700px) {
+    th,td,tr,div,p, button,input,b,form,a ,span,legend,h2,label{
+      font-size: 12px !important;
+    }
+    h2{
+      font-size: 20px !important;
+    }
+    
+    #addthietbi{
+      padding-left: 25% !important;
+    }
+    .pagination a,button{
+      padding:7px !important;
+      padding-top: 7px !important;
+      padding-bottom: 7px !important;
+      right:0px;
+    }
+    .dropbtn{
+      margin-top:0px !important;
+      padding-top: 7px !important;
+    }
+    /*log*/
+    #table_log{
+      width: 100% !important;
+
+    }
+    .pagination{
+      padding-left: 0px !important;
+    }
+    .thongtin{
+      padding-left: 1px !important;
+    }
+
+    /*quanly user*/
+    #ten_user{
+      width: 10%;
+    }
+    #timeout{
+      width: 15%;
+    }
+    #confirm{
+      width: 15%;
+    }
+    #add_username{
+      margin-left: 0px !important;
+    }
+    tr{
+    margin-top:0px !important;
+     padding-top:0px !important;
+    }
+   
+    #image2{
+        width: 99px ;
+        height: 99px ;
+    }
+    .dropdown-content-icon{
+        min-width: 240px;
+    }
+    .dropdown-content-icon a{
+        margin-left: 99px;  
+    }
+    .notification{
+        margin-left:90px !important;
+    }
+    .cd-dropdown,.cd-dropdown-content li,.cd-dropdown-content li a{
+      width:115px !important;
+    }
+     .cd-dropdown-content .is-hidden {
+       padding-left: 0px !important;margin-left: 116px !important;
+     }
+     .cd-dropdown-trigger{
+      width: 90px !important;
+     }
+     
+    .cd-dropdown {
+      height: 36% !important; 
+    }
+    .cd-dropdown-content a, .cd-dropdown-content ul a {
+      height: 30px !important;/* chieu cao tung o*/
+      line-height: 30px !important;
+     
+    }
+
+    #lichsu_menu1 {
+      margin-top: 30px !important ;
+      height: 210px !important;
+    }
+    #xoathietbi{
+      margin-top: 180px !important ;
+    }
+    #xoa_user{
+      margin-top: 210px !important ;
+    }
+    #image,#info{
+      padding-left: 5px !important;
+    }
+    #image{
+      margin-top:15px;
+    }
+    #img_profile :hover{
+      z-index: 1 !important;
+    }
+    #capnhat_anh_profile :hover{
+      z-index: 1 !important;
+    }
+    #dropdown {
+      margin-top: 0px !important;
+      margin-left: 129px !important;
+    }
+    #dropbtn{
+      margin:2px !important;
+      height: 25px !important;
+      width: 25px !important;
+    }
+    .lang_icon{
+        height: 25px !important;
+        width: 25px !important;
+    }
+    #dropdown-content a,  #dropdown-content {
+      width: 105px !important;
+    }
+    #child_quanlyuser{
+      margin-top:90px !important;
+    }
+    #child_quanlythietbi{
+      margin-top:60px !important;
+    }
+    #child_xoauser{
+      margin-top:60px !important;
+      margin-left: 230px !important;
+      width: 125px!important;
+    }
+    #child_xoathietbi{
+      margin-top:60px !important;
+      margin-left: 230px !important;
+      width: 125px!important;
+    }
+    #form_soluongdong{
+      margin:0 !important;
+    }
+    .dropdown{
+      margin:0 !important;
+    }
+    #notification{
+      margin-left: 70px !important;
+    }
+    /*function*/
+    .notification{
+      margin-left: 80px !important;
+    }
+    #dropdown{
+      margin-left: 20px !important;
+    }
+    #form_soluongdong{
+      margin-right: 4px !important;
+    }
+    #tuychon{
+      min-width: 100px !important;
+    }
+    #xacnhan{   /* trang ca1i dat user*/
+        position: relative !important;
+        padding-left: 15% !important;
+        margin-top: 0px !important;
+    }
+    .ctrlq.fb-button{
+      width:40px !important ;
+      height:40px !important;
+    }
+    .fb-widget{
+      width:350px !important ;;
+      height:400px !important ;
+    }
+    .pagination{
+      overflow: auto !important;
+      width: 130% !important;
+    }
+    #child_caidathethong{
+      margin-top:150px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+   #quanlyuser{
+    padding-left:0px !important;
+    margin-top:  0px !important;
+    padding-top : 0px !important;
+    z-index: 0 !important;
+  }
+  #xacnhan{
+     padding-left: 0% !important;
+  }
+  .container{
+    padding-left: 25% !important;
+    width:400px !important;
+  }
+   
+  #thietbi{
+    height: 150% !important; 
+    padding:0px !important;
+    margin:0px !important;
+    margin-top: 10px !important;
+  }
+  #lichsu{
+    height: 150% !important; 
+     
+  }
+   #info{
+    width: 170px;
+   }
+   #table{
+     
+   }
+   #tuychon{
+    max-width: 10px !important;
+   }
+}
+
+@media only screen and (max-width: 300px) {
+  th,td,tr,div,p, button,input,b,form,a,span,legend {
+    font-size: 10px !important;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  #anh,#blah{
+    height: 10%;
+  }
+  .pagination a,button{
+    padding:5px !important;
+    margin:0px;
+  }
+   #quanlyuser,#xacnhan{
+    width: 300px;
+   }
+   #image2{
+        width: 67px ;
+        height: 67px ;
+   }
+   .dropdown-content-icon{
+        min-width: 180px;
+   }
+   .dropdown-content-icon a{
+        margin-left: 67px;  
+        padding: 4px 8px !important;
+    }
+    #thietbi{
+        width: 30%;
+    }
+    #lichsu{
+        width: 65%
+    }
+     
+
+    #btn_capnhatanh :hover{
+        z-index: 14 !important;
+    }
+    .notification{
+        margin-left:100px !important;
+    }
+    #image1{
+        width: 30px;
+        height: 30px;
+    }
+    .cd-dropdown,.cd-dropdown-content li,.cd-dropdown-content li a{
+      width:105px !important;
+    }
+     .cd-dropdown-content .is-hidden {
+       padding-left: 106px !important;
+     }
+     .cd-dropdown-trigger{
+      width: 70px !important;
+       line-height: 30px !important;
+       padding-left: 10px !important;
+       margin-right: 10px !important;
+     }
+     .notification{
+        margin-left:80px !important;
+        font-size: 10px !important;
+    }
+    #notify{
+        font-size: 30px !important;
+    }
+    #menu_right {
+      margin:0px;
+    }
+     .cd-dropdown, {
+      width: 30% !important; 
+    }
+    #thietbi{
+      margin-top: 0px !important;
+    }
+    #lichsu{
+      height: 120% !important; 
+     
+     }
+    #info{
+      width: 145px;
+     }
+}
+ 
+.btn_capnhat{
+    width: 100px;
+    color:white;
+    background-color:#5cb85c;  
+    border: 2px  ;
+    padding: 3px;
+    font-size: 14px;
+     -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.btn_capnhat:hover{
+     background-color:orange;  
+}

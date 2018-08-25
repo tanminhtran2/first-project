@@ -1,0 +1,15 @@
+#table{
+ 	position: ;
+    float:left;
+    padding-top: 0px;
+    padding-right: 5px !important;
+}
+th,td{
+    padding:1px 15px;
+}
+#thongbao{
+	 
+}
+input[type="checkbox"]{
+	margin-left:  5px;
+}

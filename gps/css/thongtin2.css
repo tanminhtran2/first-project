@@ -1,0 +1,52 @@
+
+#thietbi_map{
+  position: absolute;
+  overflow: auto ;
+  height: 465px;
+  width:178px;
+}
+#child_quanlythietbi_map{
+  margin-top: 150px;
+}
+#child_quanlyuser_map{
+  margin-top: 200px;
+}
+#thietbi_map{
+  margin-top: 50px;
+}
+@media only screen and (max-width: 700px) {
+	   #thietbi_map{
+      margin-top: 30px !important;
+      height: 300px;
+      width:130px;
+    }
+    #child_quanlythietbi_map{
+      margin-top:90px !important;
+    }
+    #child_quanlyuser_map{
+      margin-top:120px !important;
+    }
+    #child_caidathethong{
+      margin-top:180px !important;
+    }
+    #notification {     /*icon thong bao*/
+    	 margin-left: 130px !important;
+    }
+    #div_hoatdong,#div_kohoatdong{
+    	width:120px !important;
+    }
+    #hoatdong,#kohoatdong{
+    	width: 120px !important;
+    	margin-top:35px !important;
+    	height: 250px;
+    }
+    #notify_drop,#notification,#notify,#dropdown-content,#cd-dropdown{ 
+      position: fixed !important;
+    	z-index: 6 !important;
+    }
+    #dropdown{   /*icon ngon ngu*/
+      margin-top: 10px !important;
+      margin-left: 105px !important;
+    }
+     
+}
